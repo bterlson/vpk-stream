@@ -5,10 +5,10 @@ Note: Requires support for generators (pass --harmony to Node >= 0.11).
 
 ### Usage
 ```js
-var VPKReader = require('VPKReader');
+var Reader = require('VPKReader').Reader;
 var path = require('path');
 
-var reader = new VPKReader('path/to/vpk_dir.vpk');
+var reader = new Reader('path/to/vpk_dir.vpk');
 
 reader.on('file', function(filename, metadata) {
   // Called for each file discovered in the VPK
