@@ -1,5 +1,5 @@
 ## VPK (Valve Pak) file parser
-Provides streams for files contained inside a VPK.
+Provides streams for files contained inside a VPK file, an archive format used by Valve for Dota 2 and several other games.
 
 Note: Requires support for generators (pass --harmony to Node >= 0.11).
 
